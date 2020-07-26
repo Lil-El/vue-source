@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook"
   },
   "dependencies": {
+    "babel-preset-vue": "^2.0.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@storybook/vue": "^5.3.19",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
